@@ -6,20 +6,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>GitHub | yoonaxes</title>
     <style>
+      body {
+        min-height: 100vh;
+      }
+      .position-center {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
       #github {
-        color: rgba(180, 180, 180, .75);
+        text-decoration: none !important;
+        color: rgba(40, 40, 40, .75);
         transition: color ease-in-out 250ms;
       }
       #github:hover {
-        color: rgba(220, 220, 220, .8); 
+        color: rgba(40, 40, 40, .8); 
       }
     </style>
   </head>
   <body>
-    <div class="container" style="height: 100vh">
-      <div class="text-center justify-content-center align-middle">
-        <h1 class="h1">yoonaxes</h1>
-        <a href="https://www.github.com/yoonaxes" id="github">https://www.github.com/yoonaxes</a>
+    <div class="container">
+      <div class="position-center">
+        <div class="text-center justify-content-center align-middle">
+          <h1 class="h1">yoonaxes</h1>
+          <a href="https://www.github.com/yoonaxes" id="github">https://www.github.com/yoonaxes</a>
+        </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
